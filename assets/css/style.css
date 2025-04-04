@@ -1,3 +1,7 @@
+:root {
+    --ukuran: 50px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,10 +27,9 @@ body {
 }
 
 .wadah {
-    --size: 50px;
-    width: var(--size);
+    width: var(--ukuran);
     display: block;
-    height: var(--size);
+    height: var(--ukuran);
     background-color: #191a1e;
     border-radius: 100%;
     cursor: pointer;
